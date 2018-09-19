@@ -1,0 +1,32 @@
+body{
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 490px), screen and (orientation: portrait) {
+
+.header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio-images{
+
+}
+ }
+
+@media (min-width: 800px), screen and (orientation: portrait)
