@@ -43,7 +43,7 @@ h2{
 /* Media 320px size*/
 @media screen and (min-width: 320px){
   body a:visited{
-    color: #fff;
+    color: tomato;
   }
   body a:hover{
     background-color: #fff;
@@ -91,7 +91,41 @@ width: 100%;
 width: 90%
 
 }
+/*==============
+  skills styling
+================================*/
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+    /* height: 12.5em; */
 
+  }
+  .skills{
+    height:3.25em;
+    width: 100%;
+    margin-top:2em;
+    border-radius:0.3em;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    background-color:#fff;
+    color: #42f4d4;
+
+  }
+ .skills span{
+   padding-top:1em;
+ }
+ .skills:hover{
+   border: 3px solid #c4c7d1;
+   transform: scale(1.05);
+   color: tomato;
+   transition: all 0.5s ease-out;
+
+ }
+  /* end of skills styling*/
 .footer-nav{
   display: flex;
   flex-direction: row;
@@ -211,7 +245,40 @@ display:none;
 .portfolios-legend{
   margin: 20px 30px 20px 30px;
 }
+/*==============
+  skills styling
+================================*/
+  .skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 12.5em;
 
+  }
+  .skills{
+    height:6.25em;
+    width: 6.25em;
+    border-radius: 50%;
+    margin-top:2em;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    border: 3px solid #f9f4f4;
+    background-color:#fff;
+    color: #42f4d4;
+  }
+ .skills span{
+   padding-top: 2.5em;
+ }
+ .skills:hover{
+   border: 3px solid #c4c7d1;
+   transform: scale(1.2);
+   color: tomato;
+   transition: all 0.5s ease-out;
+
+ }
+  /* end of skills styling*/
 
   .to-top{
     display: none;
@@ -297,6 +364,40 @@ display:none;
   .portfolios-legend{
     margin: 20px 30px 20px 30px;
   }
+/*==============
+  skills styling
+================================*/
+  .skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 12.5em;
+
+  }
+  .skills{
+    height:6.25em;
+    width: 6.25em;
+    border-radius: 50%;
+    margin-top:2em;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    border: 3px solid #f9f4f4;
+    background-color:#fff;
+    color: #42f4d4;
+  }
+ .skills span{
+   padding-top: 2.5em;
+ }
+ .skills:hover{
+   border: 3px solid #c4c7d1;
+   transform: scale(1.2);
+   color: tomato;
+   transition: all 0.5s ease-out;
+
+ }
+  /* end of skills styling*/
   .footer-nav{
     width: 100%;
     display: flex;
