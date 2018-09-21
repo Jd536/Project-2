@@ -157,7 +157,12 @@ display:none;
   padding: 0;
 
 }
-
+.footer-nav a:visited{
+  color: #fff;
+}
+.footer-nav a:hover{
+  color: tomato;
+}
  }
 
 
