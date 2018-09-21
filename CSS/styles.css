@@ -284,7 +284,9 @@ display:none;
 
  }
   /* end of skills styling*/
-
+.student-name-bottom{
+  font-size: 1.3em;
+}
   .to-top{
     display: none;
   }
