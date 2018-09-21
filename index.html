@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> 
     <title>Mobile-first Responsive Layout</title>
   </head>
   <body>
 
-    <header class="header-main">
+    <header id="top" class="header-main">
       <nav class="navbar">
         <h1 id="student-name">Student Name</h1>
           <ul class="menu">
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="#portfolio"> Portfolio</a> </li>
+          <li> <a href="#contact"> Contact </a> </li>
           </ul>
 
     </nav>
@@ -76,12 +76,12 @@
     </div>
 
     </div>
-  </div>
+
     <footer>
-      <div class="contacts">
+      <div id="contact" class="contacts">
         <h1> Contact</h1>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-          <address class="">
+          <address >
             <pre>Phone 1(555)555-5555 </pre>
             <pre>Email email@jimmyd.com </pre>
           </address>
@@ -90,13 +90,13 @@
       <hr>
       <nav class="footer-nav">
 
-      <h2 class="student-name-bottom">Student Name</h2>  <h2 class="to-top">BACK TO TOP</h2>
+        <h2 class="student-name-bottom">Student Name</h2>
+      <a href="#top"> <h2 class="to-top">BACK TO TOP</h2></a>
       <ul class="footer-menu">
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="#portfolio"> Portfolio </a> </li>
+        <li> <a href="#contact"> Contact </a> </li>
       </ul>
-
      </nav>
     </footer>
   </body>

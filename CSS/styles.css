@@ -1,15 +1,54 @@
 body{
   width: 90%;
+  height: 100vh;
   margin: auto;
   box-sizing: border-box;
   background-color:#f9f9f9;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+body a:link{
+  text-decoration: none;
+}
+body a:hover{
+    font-weight: bold;
+    color: tomato;
+}
+.navbar{
+  margin-bottom: 2em;
+}
 
+/* pre{
+  font-family: 'Amatic SC', cursive;
 
+} */
+hr{
+    border-top: 1px solid #D3D3D3;
+}
+.contacts p {
+  margin-bottom:2em;
+  font-family: 'Tangerine', cursive;
+  font-size: 2.5em;
+}
+h1{
+  font-weight: 400;
+}
+
+h2{
+  font-weight: 300;
+}
+.contacts{
+  margin-bottom: 2em;
+}
 /* Media 320px size*/
 @media screen and (min-width: 320px){
+  body a:visited{
+    color: #fff;
+  }
+  body a:hover{
+    background-color: #fff;
+    color:tomato;
+  }
 
 .header-main{
   display: flex;
@@ -71,11 +110,32 @@ width: 90%
 .footer-menu {
 display:none;
 }
+
+.footer-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: tomato;
+  color: #fff;
+  font-size: 1em;
+  height:3.5em;
+  padding: 0;
+
+}
+
  }
 
 
 /* Media 768px min size*/
 @media screen and (min-width: 600px) {
+  body a:visited{
+    color: #fff;
+  }
+  body a:hover{
+    background-color: #fff;
+    color:tomato;
+  }
 
   .header-main{
     display: flex;
@@ -101,11 +161,7 @@ display:none;
     margin-right: 10px;
     text-align: justify;
   }
-  .navbar{
 
-  width: 100%;
-
-  }
 
   .menu{
     text-transform: uppercase;
@@ -113,9 +169,9 @@ display:none;
   }
   .menu li{
     display: inline;
-    margin: 0 20px 0 20px;
+    margin: 0 30px 0 30px;
     margin-bottom: 5px;
-
+    background-color:transparent;
   }
   #student-name{
       text-transform: uppercase;
@@ -156,12 +212,7 @@ display:none;
   margin: 20px 30px 20px 30px;
 }
 
-  .footer-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    font-size: 1em;
-  }
+
   .to-top{
     display: none;
   }
@@ -169,14 +220,58 @@ display:none;
   display: inline;
 
   }
-  .footer-menu li{
-      display: inline;
-      margin-left: 20px;
+
+    .footer-nav{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: tomato;
+      color: #fff;
+      font-size: 1em;
+      height:3.5em;
+      padding: 0;
+
     }
+
+    .footer-menu li{
+      margin:0 30px;
+      display: inline;
+    }
+
 }
 /*
 /* Media 1024px size*/
 @media screen and (min-width: 1024px) {
+
+  .navbar{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: tomato;
+    color: #fff;
+    height:3.5em;
+    border-radius: 5px;
+    padding: 0;
+  }
+  #student-name{
+    font-size: 1.5em;
+  }
+
+
+  body a:visited{
+    color: #fff;
+  }
+  body a:hover{
+    background-color: #fff;
+    color:tomato;
+  }
+
+  .student-name{
+    padding: 0;
+  }
 
   .profile-image{
     margin-top: 10px;
@@ -188,7 +283,7 @@ display:none;
       text-align: center;
 
     }
-    .portfolios>p{
+    .portfolios>h2{
 
     }
     .portfolio-images{
@@ -202,5 +297,20 @@ display:none;
   .portfolios-legend{
     margin: 20px 30px 20px 30px;
   }
+  .footer-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: tomato;
+    color: #fff;
+    font-size: 1em;
+    height:3.5em;
+    padding: 0;
 
+  }
+
+  .footer-menu li{
+    margin:0 30px;
+  }
 }
