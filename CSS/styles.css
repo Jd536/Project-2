@@ -41,7 +41,7 @@ h2{
   margin-bottom: 2em;
 }
 /* Media 320px size*/
-@media screen and (min-width: 320px){
+/* @media screen and (min-width: 320px){ */
   body a:visited{
     color: tomato;
   }
@@ -163,7 +163,7 @@ display:none;
 .footer-nav a:hover{
   color: tomato;
 }
- }
+ /* } */
 
 
 /* Media 768px min size*/
