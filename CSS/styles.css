@@ -6,6 +6,7 @@ body{
   background-color:#f9f9f9;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  min-width: 320px;
 }
 body a:link{
   text-decoration: none;
@@ -40,8 +41,8 @@ h2{
 .contacts{
   margin-bottom: 2em;
 }
-/* Media 320px size*/
-/* @media screen and (min-width: 320px){ */
+
+
   body a:visited{
     color: tomato;
   }
@@ -136,10 +137,12 @@ width: 90%
 }
 .student-name-bottom{
   margin-left: 5px;
+  font-size: 1em;
 }
 .to-top{
   margin-left: 0;
   margin-right: 5px;
+  font-size: 1em;
 }
 .footer-menu {
 display:none;
@@ -167,7 +170,7 @@ display:none;
 
 
 /* Media 768px min size*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   body a:visited{
     color: #fff;
   }
